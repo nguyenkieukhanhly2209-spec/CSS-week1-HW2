@@ -1,0 +1,67 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+}
+/* Bước 3: Thẻ body - font-family và font-size */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* Bước 4: Thẻ header - background-color */
+header {
+    background-color: #2c3e50;
+}
+
+/* Bước 5: Thẻ nav - background-color */
+nav {
+    background-color: #34495e;
+    display: inline-block;
+    width: 80%;
+}
+
+/* Bước 6: Thẻ main - background-color và font-size */
+main {
+    background-color: #f4f4f4;
+    font-size: 18px;
+}
+
+/* Bước 7: Thẻ footer - background-color */
+footer {
+    background-color: #2c3e50;
+}
+
+/* Bước 8: Thẻ li - display và width 
+li {
+    display: inline-block;
+    width: 30%;
+}*/
+
+/* Bước 9: Thẻ h1 - text-align, font-family và color */
+h1 {
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    color: #ffffff;
+}
+
+/* Bước 10: Thẻ p - line-height */
+p {
+    line-height: 1.6;
+}
+
+nav img {
+    width: 10%;
+}
+
+/* Thiết lập Lưới (Grid) cho các trang có album ảnh */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
